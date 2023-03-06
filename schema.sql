@@ -77,3 +77,16 @@ animals_id INT REFERENCES animals (id),
 date_of_visit DATE);
 
 
+--------------------------------------------------------------------------------
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- create index ON animals_id to decrease execution time
+CREATE INDEX visitedAnimals_index ON visits (animals_id);
+
+-- create index on vets_id to decrease execution time
+CREATE INDEX animals_vets_index ON visits (vets_id);
+
+-- create index on owners to decrease execution time
+CREATE INDEX owners_id_index ON owners (email);
