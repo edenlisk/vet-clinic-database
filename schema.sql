@@ -87,3 +87,6 @@ CREATE INDEX visitedAnimals_index ON visits (animals_id);
 
 -- create index on vets_id to decrease execution time
 CREATE INDEX animals_vets_index ON visits (vets_id);
+
+-- create index on owners to decrease execution time
+CREATE INDEX owners_id_index ON owners (email);
