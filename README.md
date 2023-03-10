@@ -56,7 +56,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-No Live Demo Available
+[Here is the schema diagram of the database](https://drawsql.app/teams/salwa-eden/diagrams/vet-clinic)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
